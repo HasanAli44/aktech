@@ -1,0 +1,16 @@
+@keyframes alltuchtopdown {
+  0% {
+    transform: rotateX(0deg) translateY(0px);
+  }
+
+  50% {
+    transform: rotateX(0deg) translateY(-20px);
+  }
+
+  100% {
+    transform: rotateX(0deg) translateY(0px);
+  }
+}
+.animate {
+  animation: alltuchtopdown 8s infinite linear;
+}
