@@ -2,7 +2,7 @@ import logoImg from "../../assets/images/logo.webp";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Header = () => {
   return (
-    <div className="navbar bg-transparent xl:px-40 px-5 z-10 absolute left-0 right-0 w-full">
+    <div className="navbar bg-transparent xl:px-40 px-5 z-10 xl:absolute left-0 right-0 w-full">
       <div className="navbar-start ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -77,7 +77,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end md:hidden">
+      <div className="navbar-end ">
         <div>
           <button className="bg-[#FE8B53] w-44 h-12 group text-[18px] flex items-center justify-center  font-[600] text-white rounded-md">
             Reach Out to Us

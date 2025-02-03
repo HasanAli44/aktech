@@ -18,7 +18,7 @@ const Banner = () => {
       </div>
       <div className="banner-bg">
         <div className="xl:px-40 px-5 relative z-10 text-white">
-          <h1 className="xl:text-[80px] monserret md:text-5xl text-3xl  font-semibold xl:leading-24 md:leading-20 xl:pt-32">
+          <h1 className="xl:text-[80px] monserret md:text-5xl text-3xl  font-semibold xl:leading-24 md:leading-20 xl:pt-32 pt-10">
             Embrace the <br /> future of finance
           </h1>
           <p className="font-semibold pt-5 monserret">
